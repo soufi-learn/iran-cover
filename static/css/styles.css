@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "dana-medium", "sans-serif";
+  }
+
+  html {
+    direction: rtl;
+  }
+
+  /* Add dana font */
+  @font-face {
+    font-family: "dana-black";
+    src: url("../fonts/dana-black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "dana-bold";
+    src: url("../fonts/dana-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "dana-medium";
+    src: url("../fonts/dana-medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "dana-light";
+    src: url("../fonts/dana-light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  input {
+    user-select: none !important;
+  }
+
+  h1 {
+    @apply text-4xl font-bold text-gray-800;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold text-gray-700;
+  }
+
+  h3 {
+    @apply text-2xl font-medium text-gray-600;
+  }
+
+  h4 {
+    @apply text-xl font-medium text-gray-600;
+  }
+
+  h5 {
+    @apply text-lg font-medium text-gray-600;
+  }
+
+  h6 {
+    @apply text-base font-medium text-gray-600;
+  }
+}
