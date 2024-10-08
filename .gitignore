@@ -1,1 +1,51 @@
-venv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+*.log
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.pnpm-debug.log*
+.pnp/
+.pnp.js
+
+# Tailwind
+dist/
+build/
+*.out
+
+# General
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs/
+*.log
+
+# IDEs
+*.iml
+*.ipr
+*.iws
+
+# Other
+*.swp
+*.swo
