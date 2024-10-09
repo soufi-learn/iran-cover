@@ -698,6 +698,20 @@ h6 {
   bottom: 0;
 }
 
+#header-burger-btn.active span {
+  transform: scale(0);
+}
+
+#header-burger-btn.active:before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+
+#header-burger-btn.active:after {
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+
 .fixed {
   position: fixed;
 }
@@ -871,6 +885,10 @@ h6 {
 
 .duration-700 {
   transition-duration: 700ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
 
 .hover\:bg-primary-dark:hover {
