@@ -5,6 +5,7 @@
 @layer base {
   body {
     font-family: "dana-medium", "sans-serif";
+    background: #f9f9f9;
   }
 
   html {
