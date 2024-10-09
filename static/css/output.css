@@ -659,24 +659,61 @@ h6 {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.-m-2 {
-  margin: -0.5rem;
+.header-burger-btn {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  z-index: 3;
+  cursor: pointer;
 }
 
-.-mb-3 {
-  margin-bottom: -0.75rem;
+.header-burger-btn span {
+  position: absolute;
+  background-color: #000;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  transition: all 0.4s ease 0s;
+  border-radius: 10px;
 }
 
-.-mb-2 {
-  margin-bottom: -0.5rem;
+.header-burger-btn:before,
+  .header-burger-btn:after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 10px;
+}
+
+.header-burger-btn:before {
+  top: 0;
+}
+
+.header-burger-btn:after {
+  bottom: 0;
+}
+
+.header-burger-btn.active span {
+  transform: scale(0);
+}
+
+.header-burger-btn.active:before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+
+.header-burger-btn.active:after {
+  transform: rotate(-45deg);
+  bottom: 9px;
 }
 
 .-mb-1 {
   margin-bottom: -0.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-1 {
@@ -713,7 +750,7 @@ h6 {
 
 .bg-primary-main {
   --tw-bg-opacity: 1;
-  background-color: rgb(247 118 61 / var(--tw-bg-opacity));
+  background-color: rgb(255 80 35 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -757,7 +794,7 @@ h6 {
 
 .text-primary-main {
   --tw-text-opacity: 1;
-  color: rgb(247 118 61 / var(--tw-text-opacity));
+  color: rgb(255 80 35 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -779,10 +816,16 @@ h6 {
 
 .hover\:bg-primary-dark:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(245 90 24 / var(--tw-bg-opacity));
+  background-color: rgb(244 67 23 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary-main:hover {
   --tw-text-opacity: 1;
-  color: rgb(247 118 61 / var(--tw-text-opacity));
+  color: rgb(255 80 35 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
 }
