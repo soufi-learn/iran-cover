@@ -659,8 +659,36 @@ h6 {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.me-4 {
+  margin-inline-end: 1rem;
+}
+
+.me-14 {
+  margin-inline-end: 3.5rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .items-center {
@@ -727,6 +755,10 @@ h6 {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .shadow-sm {
