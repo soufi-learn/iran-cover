@@ -71,7 +71,7 @@
 }
 
 @layer components {
-  .header-burger-btn {
+  #header-burger-btn {
     position: relative;
     width: 30px;
     height: 20px;
@@ -79,7 +79,7 @@
     cursor: pointer;
   }
 
-  .header-burger-btn span {
+  #header-burger-btn span {
     position: absolute;
     background-color: #000;
     left: 0;
@@ -90,8 +90,8 @@
     border-radius: 10px;
   }
 
-  .header-burger-btn:before,
-  .header-burger-btn:after {
+  #header-burger-btn:before,
+  #header-burger-btn:after {
     content: "";
     background-color: #000;
     position: absolute;
@@ -102,24 +102,24 @@
     border-radius: 10px;
   }
 
-  .header-burger-btn:before {
+  #header-burger-btn:before {
     top: 0;
   }
 
-  .header-burger-btn:after {
+  #header-burger-btn:after {
     bottom: 0;
   }
 
-  .header-burger-btn.active span {
+  #header-burger-btn.active span {
     transform: scale(0);
   }
 
-  .header-burger-btn.active:before {
+  #header-burger-btn.active:before {
     transform: rotate(45deg);
     top: 9px;
   }
 
-  .header-burger-btn.active:after {
+  #header-burger-btn.active:after {
     transform: rotate(-45deg);
     bottom: 9px;
   }

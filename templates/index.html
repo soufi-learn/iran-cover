@@ -16,10 +16,10 @@
   </head>
   <body>
     <!------------------ Header ------------------>
-    <header class="px-5 py-4 bg-white shadow-sm">
+    <header class="px-5 py-4 bg-white shadow-sm md:px-7 lg:px-10">
       <div class="flex items-center justify-between">
         <!-- burger button -->
-        <div class="header-burger-btn md:hidden">
+        <div class="md:hidden" id="header-burger-btn">
           <span></span>
         </div>
 
@@ -27,7 +27,8 @@
 
         <!-- nav list -->
         <nav
-          class="fixed top-0 right-0 items-center w-full h-screen p-4 md:py-0 md:bg-transparent md:flex-1 md:justify-around md:h-auto md:flex md:static bg-black/80 backdrop-blur-md"
+          class="fixed items-center w-full h-screen p-4 transition-all duration-700 top-[64px] -right-full md:py-0 md:bg-transparent md:flex-1 md:justify-around md:h-auto md:flex md:static bg-black/80 backdrop-blur-md"
+          id="header-navbar"
         >
           <ul
             class="flex-1 mt-16 mb-8 md:flex md:justify-center md:my-0 md:gap-4"
@@ -66,5 +67,8 @@
         </nav>
       </div>
     </header>
+
+    <!-- Scripts -->
+    <script src="../static/js/main.js"></script>
   </body>
 </html>
