@@ -77,7 +77,9 @@
     </div>
 
     <!--------------------- infos Section --------------------->
-    <div class="mx-5 mt-8 text-center md:text-right md:mx-12 md:mt-14">
+    <div
+      class="flex flex-col items-center gap-4 mx-5 mt-8 md:text-right md:mx-12 md:mt-14"
+    >
       <h3 class="mb-4 font-bold text-gray-800">به راستی که صوفی کیست؟ 😎</h3>
       <p class="leading-8 text-gray-600">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
@@ -94,20 +96,22 @@
     </div>
 
     <!--------------------- Contact Section --------------------->
-    <div class="mx-5 mt-6 md:mt-8 md:mx-12">
-      <h3 class="font-bold text-center text-gray-800">تماس با ما</h3>
-      <div class="flex items-center justify-between gap-10 mt-10">
+    <div class="mx-5 mt-8 md:mx-12">
+      <h3 class="font-bold text-center text-gray-800">ارتباط با ما</h3>
+      <div
+        class="flex flex-col items-center justify-between gap-10 mt-10 lg:flex-row"
+      >
         <section class="flex-1">
           <img
             src="../static/images/contact.png"
             alt="contact"
-            class="w-5/6 mx-auto"
+            class="w-4/6 mx-auto"
           />
           <div>
             <!-- address -->
             <div class="mt-4">
               <h4>آدرس:</h4>
-              <p class="mt-2">
+              <p class="mt-2 leading-8">
                 تهران، خیابان ابوریحان داخلی، کوچه ذکریای ناراضی، پلاک ۸۵، زنگ
                 ۶۹
               </p>
@@ -115,10 +119,51 @@
           </div>
         </section>
 
-        <section class="flex-1">
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
+        <section class="flex flex-col items-center flex-1 w-full gap-4">
+          <a
+            href="#"
+            class="flex items-center justify-around w-full px-4 py-5 bg-white rounded-md shadow-md md:w-3/6 lg:w-4/5 xl:w-3/5"
+          >
+            <div class="flex flex-col items-center gap-4">
+              <img
+                src="../static/images/phone-icon.png"
+                alt="phone icon"
+                class="w-20"
+              />
+              <span>شماره تماس</span>
+            </div>
+            <span class="dir-ltr">021_4808864</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center justify-around w-full px-4 py-5 bg-white rounded-md shadow-md md:w-3/6 lg:w-4/5 xl:w-3/5"
+          >
+            <div class="flex flex-col items-center gap-4">
+              <img
+                src="../static/images/eitaa-logo.png"
+                alt="aita"
+                class="w-20"
+              />
+              <span>ایتا</span>
+            </div>
+            <span class="dir-ltr">@ita.com</span>
+          </a>
+
+          <a
+            href="https://t.me/..."
+            class="flex items-center justify-around w-full px-4 py-5 bg-white rounded-md shadow-md md:w-3/6 lg:w-4/5 xl:w-3/5"
+          >
+            <div class="flex flex-col items-center gap-4">
+              <img
+                src="../static/images/telegram-logo.png"
+                alt="telegram"
+                class="w-20"
+              />
+              <span>تلگرام</span>
+            </div>
+            <span class="dir-ltr">@ita.com</span>
+          </a>
         </section>
       </div>
     </div>

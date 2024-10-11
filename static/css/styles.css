@@ -124,3 +124,9 @@
     bottom: 9px;
   }
 }
+
+@layer utilities {
+  .dir-ltr {
+    direction: ltr;
+  }
+}
