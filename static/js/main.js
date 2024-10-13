@@ -10,3 +10,16 @@ headerBurgerButton.addEventListener("click", () => {
     headerBurgerButton.classList.remove("active");
   }
 });
+
+// navigate to section dynamicly
+const headerLinks = document.querySelectorAll(".header-link");
+
+headerLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    // close headerNavbar in mobile size
+    if (headerNavbar.classList.contains("right-0")) {
+      headerBurgerButton.click();
+    }
+  });
+});
