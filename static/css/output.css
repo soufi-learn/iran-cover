@@ -659,6 +659,40 @@ h6 {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 #header-burger-btn {
   position: relative;
   width: 30px;
@@ -804,6 +838,10 @@ h6 {
 
 .flex {
   display: flex;
+}
+
+.list-item {
+  display: list-item;
 }
 
 .hidden {
