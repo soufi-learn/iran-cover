@@ -37,6 +37,7 @@ headerLinks.forEach((link) => {
       } else {
         window.scrollTo({
           top: activeSection.offsetTop - 15,
+          behavior: "smooth",
         });
       }
     }
