@@ -859,6 +859,14 @@ h6 {
   margin-top: 9rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -873,6 +881,10 @@ h6 {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -1326,6 +1338,10 @@ h6 {
 
   .md\:mt-14 {
     margin-top: 3.5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:flex {
