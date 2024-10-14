@@ -20,26 +20,5 @@ headerLinks.forEach((link) => {
     if (headerNavbar.classList.contains("right-0")) {
       headerBurgerButton.click();
     }
-
-    // scroll dynamicly in current section
-    const href = e.currentTarget.getAttribute("href");
-    const activeSection = document.getElementById(href);
-    const header = document.getElementById("main-header");
-    const headerHeight = header.getBoundingClientRect().height;
-
-    if (activeSection) {
-      e.preventDefault();
-
-      if (window.innerHeight <= 768) {
-        window.scrollTo({
-          top: activeSection.offsetTop - headerHeight - 15,
-        });
-      } else {
-        window.scrollTo({
-          top: activeSection.offsetTop - 15,
-          behavior: "smooth",
-        });
-      }
-    }
   });
 });
