@@ -874,16 +874,12 @@ h6 {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .h-44 {
   height: 11rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .h-4 {
@@ -1031,6 +1027,11 @@ h6 {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .object-cover {
