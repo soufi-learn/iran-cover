@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مقالات | ایران کاور</title>
+    <link rel="stylesheet" href="../static/css/output.css" />
+  </head>
+  <body>
+    <!------------------ Header ------------------>
+    <header
+      class="fixed top-0 w-full px-5 py-4 bg-white shadow-sm md:static md:px-7 lg:px-10"
+      id="main-header"
+    >
+      <div class="flex items-center justify-between">
+        <!-- burger button -->
+        <div class="md:hidden" id="header-burger-btn">
+          <span></span>
+        </div>
+
+        <a href="./index.html" class="block text-2xl font-bold">ایران کاور</a>
+
+        <!-- nav list -->
+        <nav
+          class="fixed items-center w-full h-screen p-4 transition-all duration-500 top-[64px] -right-full md:py-0 md:bg-transparent md:flex-1 md:justify-around md:h-auto md:flex md:static bg-black/80 backdrop-blur-md"
+          id="header-navbar"
+        >
+          <ul
+            class="flex-1 mt-16 mb-8 md:flex md:justify-center md:my-0 md:gap-4"
+          >
+            <li class="w-full mb-4 md:w-auto md:mb-0">
+              <a
+                href="./index.html"
+                class="flex items-center gap-2 px-3 py-3 mb-1 transition-all bg-gray-100 rounded-md header-link md:bg-transparent hover:bg-white md:hover:text-primary-main"
+                ><img src="../static/icons/home.svg" alt="home" />
+                <span class="-mb-1">خانه</span></a
+              >
+            </li>
+            <li class="w-full mb-4 md:w-auto md:mb-0">
+              <a
+                href="./work-samples.html"
+                class="flex items-center gap-2 px-3 py-3 mb-1 transition-all bg-gray-100 rounded-md header-link md:bg-transparent hover:bg-white md:hover:text-primary-main"
+                ><img src="../static/icons/samples.svg" alt="samples" />
+                <span class="-mb-1">نمونه کار ها</span></a
+              >
+            </li>
+            <li class="w-full mb-4 md:w-auto md:mb-0">
+              <a
+                href="./blogs.html"
+                class="flex items-center gap-2 px-3 py-3 mb-1 transition-all bg-gray-100 rounded-md header-link md:bg-transparent hover:bg-white md:hover:text-primary-main"
+                ><img src="../static/icons/weblogs.svg" alt="weblogs" />
+                <span class="-mb-1">مقالات</span></a
+              >
+            </li>
+          </ul>
+
+          <a
+            href="./contact-us.html"
+            class="block px-5 py-3 text-white transition-all rounded-md header-link bg-primary-main hover:bg-primary-dark"
+            ><span class="block -mb-1">تماس با ما</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!--------------------- Blog Details Section --------------------->
+
+    <!--------------------- Footer------------------- -->
+    <footer class="py-10 mt-10 text-white bg-gray-800">
+      <div class="container grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-3">
+        <div class="contact-info">
+          <h3
+            class="pb-2 mb-4 text-lg font-bold text-center text-white border-b-2 border-white"
+          >
+            تماس با ما
+          </h3>
+          <div class="text-center">
+            <p class="mb-2">
+              ایمیل:
+              <a
+                href="mailto:example@gmail.com"
+                class="text-blue-300 hover:underline"
+                >example@gmail.com</a
+              >
+            </p>
+            <p class="">
+              شماره تماس:
+              <a
+                href="tel:+989123456789"
+                class="inline-block text-blue-300 hover:underline dir-ltr"
+                >+98 912 345 6789</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="links">
+          <h3
+            class="pb-2 mb-4 text-lg font-bold text-center text-white border-b-2 border-white"
+          >
+            لینک‌های مفید
+          </h3>
+          <ul class="space-y-2 text-center">
+            <li>
+              <a href="./index.html" class="text-white hover:text-primary-main"
+                >خانه</a
+              >
+            </li>
+            <li>
+              <a
+                href="./work-samples.html"
+                class="text-white hover:text-primary-main"
+                >نمونه کار ها</a
+              >
+            </li>
+            <li>
+              <a href="./blogs.html" class="text-white hover:text-primary-main"
+                >مقالات</a
+              >
+            </li>
+            <li>
+              <a
+                href="./contact-us.html"
+                class="text-white hover:text-primary-main"
+                >تماس با ما</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="map">
+          <h3
+            class="pb-2 mb-4 text-lg font-bold text-center text-white border-b-2 border-white"
+          >
+            نقشه
+          </h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51841.22558479139!2d51.26181844863279!3d35.69973259999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dfe05732c2e91%3A0xfcbec017befd15f4!2sAzadiTower!5e0!3m2!1sen!2s!4v1728836950763!5m2!1sen!2s"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="../static/js/main.js"></script>
+  </body>
+</html>
