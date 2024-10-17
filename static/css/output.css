@@ -921,6 +921,18 @@ h6 {
   width: 100%;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .min-w-8 {
   min-width: 2rem;
 }
@@ -1351,6 +1363,10 @@ h6 {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
   }
 
   .md\:flex-1 {
