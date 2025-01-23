@@ -33,7 +33,7 @@ const workSampleSlider = new Swiper("#work-sample-slider-wrapper", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   },
 });
@@ -51,7 +51,7 @@ const weblogSlider = new Swiper("#weblog-slider-wrapper", {
       slidesPerView: 2,
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   },
 });

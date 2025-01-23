@@ -767,6 +767,14 @@ h6 {
   top: 64px;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
+.z-\[90909090\] {
+  z-index: 90909090;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
