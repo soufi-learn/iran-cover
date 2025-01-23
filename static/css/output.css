@@ -777,6 +777,11 @@ h6 {
   margin-right: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -790,11 +795,6 @@ h6 {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .-mb-1 {
@@ -901,6 +901,10 @@ h6 {
   height: 100vh;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -919,18 +923,6 @@ h6 {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[55\%\] {
-  width: 55%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .min-w-8 {
@@ -1104,6 +1096,11 @@ h6 {
   padding-bottom: 2.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1117,16 +1114,6 @@ h6 {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pb-2 {
@@ -1281,11 +1268,6 @@ h6 {
   color: rgb(255 80 35 / var(--tw-text-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -1363,10 +1345,6 @@ h6 {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-\[70\%\] {
-    width: 70%;
   }
 
   .md\:flex-1 {

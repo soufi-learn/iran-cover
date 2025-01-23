@@ -10,3 +10,12 @@ headerBurgerButton.addEventListener("click", () => {
     headerBurgerButton.classList.remove("active");
   }
 });
+
+// run slider for header section
+const swiper = new Swiper("#header-slider-wrapper", {
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  speed: 1200,
+});
