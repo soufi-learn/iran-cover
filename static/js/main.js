@@ -12,10 +12,27 @@ headerBurgerButton.addEventListener("click", () => {
 });
 
 // run slider for header section
-const swiper = new Swiper("#header-slider-wrapper", {
+const headerSlider = new Swiper("#header-slider-wrapper", {
   loop: true,
   autoplay: {
     delay: 3000,
   },
   speed: 1200,
+});
+
+// run slider for work samples section
+const workSampleSlider = new Swiper("#work-sample-slider-wrapper", {
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  speed: 1200,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
