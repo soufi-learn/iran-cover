@@ -26,6 +26,25 @@ const workSampleSlider = new Swiper("#work-sample-slider-wrapper", {
   autoplay: {
     delay: 3000,
   },
+  spaceBetween: 20,
+  speed: 1200,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+
+// run slider for weblog section
+const weblogSlider = new Swiper("#weblog-slider-wrapper", {
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+  spaceBetween: 20,
   speed: 1200,
   breakpoints: {
     768: {
